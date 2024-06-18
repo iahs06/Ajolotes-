@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>El Ajolote Mexicano: Un Milagro de la Naturaleza</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>El Ajolote Mexicano</h1>
+        <nav>
+            <a href="index.html">Inicio</a>
+            <a href="que-es.html">¿Qué es?</a>
+            <a href="caracteristicas.html">Características y Datos</a>
+            <a href="blog.html">Blog</a>
+            <a href="galeria.html">Galería</a>
+            <a href="contacto.html">Contacto</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="galeria">
+            <h2>Galería</h2>
+            <div class="gallery">
+                <img src="ajolote_galeria_1.jpg" alt="Ajolote Mexicano 1">
+                <img src="ajolote_galeria_2.jpg" alt="Ajolote Mexicano 2">
+                <img src="ajolote_galeria_3.jpg" alt="Ajolote Mexicano 3">
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
