@@ -1,0 +1,66 @@
+/* Estilos generales */
+body {
+    font-family: sans-serif;
+    margin: 0;
+    background-color: #f8bbd0; /* Rosa pastel */
+    color: #333; /* Texto gris oscuro */
+}
+
+header {
+    background-color: #e91e63; /* Rosa */
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+h1, h2 {
+    margin: 0.5rem 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 1rem;
+}
+
+main {
+    padding: 2rem;
+}
+
+section {
+    margin-bottom: 2rem;
+    background-color: #fff; /* Fondo blanco para las secciones */
+    padding: 1.5rem;
+    border-radius: 8px; /* Bordes redondeados */
+}
+
+footer {
+    background-color: #c2185b; /* Rosa más oscuro */
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+/* Estilos específicos */
+.newspaper-style {
+    display: flex;
+    flex-direction: column; /* Apilar elementos en vertical */
+}
+
+.newspaper-style img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 1rem; /* Espacio entre el texto y la imagen */
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.gallery img {
+    width: 250px; /* Tamaño de las imágenes en la galería */
+    margin: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para las imágenes */
+}
