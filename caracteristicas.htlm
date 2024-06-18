@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>El Ajolote Mexicano: Un Milagro de la Naturaleza</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>El Ajolote Mexicano</h1>
+        <nav>
+            <a href="index.html">Inicio</a>
+            <a href="que-es.html">¿Qué es?</a>
+            <a href="caracteristicas.html">Características y Datos</a>
+            <a href="blog.html">Blog</a>
+            <a href="galeria.html">Galería</a>
+            <a href="contacto.html">Contacto</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="caracteristicas">
+            <h2>Características y Datos del Ajolote Mexicano</h2>
+            <div class="newspaper-style">
+                <p>El ajolote mexicano puede alcanzar una longitud de hasta 30 centímetros y vivir hasta 15 años en cautiverio. Su dieta consiste principalmente en pequeños invertebrados, como gusanos, insectos y crustáceos.</p>
+                <p>Es una especie nocturna y tímida, que prefiere esconderse entre las plantas acuáticas y las rocas. Su coloración varía entre el marrón oscuro y el negro, aunque también existen ejemplares albinos y leucísticos.</p>
+                <p>El ajolote mexicano es una especie en peligro crítico de extinción, según la Lista Roja de la UICN. La principal amenaza para su supervivencia es la pérdida de hábitat, causada por la urbanización, la contaminación del agua y la introducción de especies invasoras, como la tilapia y la carpa.</p>
+            </div>
+            <img src="ajolote_3.jpg" alt="Ajolote Mexicano albino">
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
