@@ -1,6 +1,8 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>El Ajolote Mexicano: Un Milagro de la Naturaleza</title>
     <link rel="stylesheet" href="style.css">
 </head>
@@ -20,40 +22,49 @@
     <main>
         <section id="contacto">
             <h2>Contacto</h2>
-            <form action="#" method="post">
-                <label for="name">Nombre:</label><br>
-                <input type="text" id="name" name="name" required><br><br>
-                <label for="email">Correo electrónico:</label><br>
-                <input type="email" id="email" name="email" required><br><br>
-                <label for="comment">Comentario:</label><br>
-                <textarea id="comment" name="comment" rows="4" required></textarea><br><br>
-                <input type="submit" value="Enviar">
-            </form>
+
+            <div class="contact-container">
+                <form class="contact-form" action="#" method="post">
+                    <div class="form-group">
+                        <label for="name">Nombre:</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Correo electrónico:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="comment">Comentario:</label>
+                        <textarea id="comment" name="comment" rows="4" required></textarea>
+                    </div>
+                    <button type="submit">Enviar</button>
+                </form>
+
+                <div class="contact-info">
+                    <h3>Información de Contacto</h3>
+                    <p>Número de contacto: 123-456-7890</p>
+                    <p>Correo electrónico: contacto@ejemplo.com</p>
+                </div>
+            </div>
 
             <div class="donations">
                 <h2>Donaciones</h2>
                 <p>Si deseas apoyar la conservación del ajolote mexicano, puedes realizar una donación. Tu contribución ayudará a financiar proyectos de investigación, educación y protección del hábitat de esta especie única.</p>
                 <form action="https://tu-plataforma-de-donaciones.com" method="post">
-                    <input type="number" id="amount" name="amount" placeholder="Cantidad a donar" required>
-                    <input type="submit" value="Donar">
+                    <div class="form-group">
+                        <input type="number" id="amount" name="amount" placeholder="Cantidad a donar" required>
+                    </div>
+                    <button type="submit">Donar</button>
                 </form>
-            </div>
-
-            <div class="contact-info">
-                <h2>Contacto</h2>
-                <p>Número de contacto: 123-456-7890</p>
-                <p>Correo electrónico: contacto@ejemplo.com</p>
-                <p>Visitas: <span id="contador-visitas">0</span></p>
             </div>
         </section>
     </main>
 
     <footer>
         <p>&copy; 2024 Salvemos al Ajolote Mexicano</p>
+        <p>Visitas: <span id="contador-visitas">0</span></p>
     </footer>
 
     <script src="script.js"></script>
 </body>
 </html>
-
-
